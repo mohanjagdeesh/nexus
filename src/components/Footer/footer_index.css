@@ -1,127 +1,150 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  
-  .footer-container {
-    background-color: rgb(28, 27, 27);
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    gap: 20px;
-    padding: 20px 20px 0px 20px;
-  }
-  
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  background-color: rgb(28, 27, 27);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  padding: 10px;
+}
+
+.subscription-container {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
   .subscription-container {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    max-width: 100%;
   }
-  @media (max-width:768px) {
-    .subscription-container{
-      max-width: 100%;
-    }
-  }
-  
+}
+
+.about-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-widih: 768px) {
   .about-container {
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    max-width: 100%;
   }
-  @media (max-widih:768px) {
-    .about-container{
-        max-width: 100%;
-    }
-  }
-  
-  .footer-sub-text {
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 0px;
-  }
-  
+}
+
+.footer-sub-text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.h-rule-about {
+  width: 300px;
+  height: 0px;
+  border: 2px solid white;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+@media (max-width: 768px) {
   .h-rule-about {
-    width: 360px;
-    height: 0px;
-    border: 1px solid white;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    max-width: 100%;
   }
-  @media (max-width:768px) {
-    .h-rule-about{
-      max-width: 100%;
-    }
-  }
-  
+}
+
+.h-rule-sub {
+  width: 520px;
+  height: 0px;
+  border: 2px solid white;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+@media (max-width: 768px) {
   .h-rule-sub {
-    width: 500px;
-    height: 0px;
-    border: 1px solid white;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    max-width: 100%;
   }
-  @media (max-width:768px) {
-    .h-rule-sub{
-      max-width: 100%;
-    }
-  }
-  
-  .email-input-container {
-    width: 100%;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-  }
-  
-  .email-input {
-    padding: 5px;
-    width: 500px;
-    outline: none;
-    color: white;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-  }
-  
-  .right-icon {
-    color: white;
-  }
-  
-  .email-input::placeholder {
-    color: white;
-    font-size: 20px;
-  }
-  
-  .checkbox-label {
-    color: white;
-  }
-  
-  .check-box {
-    height: 17px;
-    width: 17px;
-  }
-  
-  .anchor {
-    color: white;
-  }
-  
-  .ul-container {
-    list-style-type: none;
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .list-item {
-    color: white;
-  }
+}
+
+.email-input-container {
+  width: 520px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.email-input {
+  padding: 5px;
+  width: 500px;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.right-icon {
+  color: white;
+}
+
+.email-input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.checkbox-label {
+  color: white;
+}
+
+.check-box {
+  height: 17px;
+  width: 17px;
+}
+
+.anchor {
+  color: white;
+}
+
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 0px;
+}
+
+.list-item {
+  color: white;
+}
+
+.under-hrule {
+  width: 1500px;
+  height: 0px;
+  border: 2px solid white;
+  border-color: white;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.footer-container-2 {
+  background-color: rgb(28, 27, 27);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bottom-heding {
+  color: white;
+  margin-left: 25px;
+}

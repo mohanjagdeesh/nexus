@@ -1,7 +1,6 @@
-import "./footer_index.css"
-
 import { BsArrowRight } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
+import "./footer_index.css";
 
 const Footer = () => {
   return (
@@ -47,7 +46,6 @@ const Footer = () => {
             <li className="list-item">Terms and conditions</li>
           </ul>
         </div>
-        
         <div className="about-container">
           <h1 className="footer-sub-text">Services</h1>
           <hr className="h-rule-about" />
@@ -72,7 +70,7 @@ const Footer = () => {
             <li className="list-item">
               Language: <br />
               <span href="https://www.google.com">English</span> <br />
-              <span href="https://www.google.com">China</span>
+              <span href="https://www.google.com">繁體中文</span>
             </li>
           </ul>
         </div>
@@ -109,8 +107,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="footer-container-2">
+        <hr className="under-hrule" />
+        <br />
+        <h1 className="bottom-heding">@Aesop</h1>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
