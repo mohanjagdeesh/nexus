@@ -18,7 +18,7 @@
   width: 520px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
@@ -31,7 +31,7 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 @media (max-widih: 768px) {
@@ -44,6 +44,7 @@
   color: white;
   font-size: 15px;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .h-rule-about {
@@ -81,6 +82,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .email-input-container {
+    max-width: 100%;
+  }
 }
 
 .email-input {
